@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+    background-color: #535971;
+}
+
+.page {
+    width: 750px;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 415px;
+    margin-top: 140px;
+    color: white;
+}
+
+h1, legend, h2, button {
+    font-family: 'Staatliches', sans-serif;
+    color: #535971;
+}
+
+h1 {
+    color: #FF5374;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+label, input, p, span {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    min-height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    padding: 70px;
+}
+
+fieldset {
+    height: 100%;
+
+    padding: 0;
+    margin-bottom: 10px;
+
+    border: 1px solid red;
+    border: none;
+}
+
+fieldset legend {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+
+    display: flex;
+
+    padding-bottom: 16px;
+    margin-bottom: 36px;
+    width: 100%;
+    border-bottom: 1px solid #E6E6F0;
+}
+
+label {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+    color: #4E4958;
+}
+
+input {
+    background-color: #FAFAFC;
+    color: #4E4958;
+
+    font-size: 15px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    height: 56px;
+    margin-top: 8px;
+    padding: 20px;
+}
+
+input:hover {
+    border-color: #84848b;
+    background-color: #e8e8f0;
+}
+
+.col-2 {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 40px;
+}
+
+.input-wrapper input {
+    display: flex;
+    width: 292px;
+}
+
+.fieldset-wrapper {
+    margin-bottom: 40px;
+}
+
+.fieldset-wrapper input {
+    display: block;
+    width: 100%;
+
+}
+
+span {
+    color: #C1BCCC;
+}
+
+h2 {
+    display: flex;
+  
+    font-size: 20px;
+    font-weight: normal;
+}
+.col-3 {
+    display: flex;
+    gap: 22px;
+    margin-bottom: 40px;
+}
+
+.col-3 input {
+    align-items: center;
+    justify-content: center;
+}
+
+#ate, #das {
+    display: flex;
+    width: 135px;
+}
+
+footer {
+    width: 750px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #535971;
+    margin-bottom: 100px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+footer button {
+    width: 608px;
+    height: 55px;
+    background-color: #FF5374;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+footer button:hover {
+    background-color: #bb2d64;
+    font-size: 21px;
+}
